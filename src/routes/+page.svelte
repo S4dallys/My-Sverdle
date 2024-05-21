@@ -72,7 +72,7 @@
 {:else}
     <div class="bottom-div">
         <h1>You lose!</h1>
-        <p>The words was {word}.</p>
+        <p>The word was {word}.</p>
         <!-- svelte-ignore a11y-autofocus -->
         <button on:click={restartGame} autofocus>Retry</button>
     </div>
