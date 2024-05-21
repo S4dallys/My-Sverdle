@@ -17,6 +17,7 @@
     let currentGuess = "";
 
     function handleClick() {
+        currentGuess = currentGuess.toLowerCase();
         if (currentGuess.length != 5) return;
         if (guessNumber == 4 || currentGuess === word) {
             guesses[guessNumber] = currentGuess;
